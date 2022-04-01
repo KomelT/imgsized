@@ -1,0 +1,2 @@
+# imgsized
+Image manipulation API
