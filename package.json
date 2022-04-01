@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KomelT/imgsized/issues"
   },
-  "homepage": "https://github.com/KomelT/imgsized#readme"
+  "homepage": "https://github.com/KomelT/imgsized#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
