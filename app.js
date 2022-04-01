@@ -1,0 +1,1 @@
+// Check and set environment variables
