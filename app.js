@@ -1,6 +1,10 @@
+// Modules / Functions import
 require('dotenv').config()
+const express = require('express')
+const app = express()
 const { checkEnv, randomStr } = require('./helper')
 
+// Welcome message
 console.log('Hello from ImgSized API!')
 console.log('.env check:')
 
