@@ -6,4 +6,5 @@ WORKDIR /app
 
 RUN apk update
 
+# https://rawpedia.rawtherapee.com/Command-Line_Options#RawTherapee_CLI -- Rawtherapee MANUAL
 RUN apk add rawtherapee
