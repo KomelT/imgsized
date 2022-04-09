@@ -1,9 +1,9 @@
-FROM archlinux:latest
+FROM alpine:latest
 
 WORKDIR /app
 
 #RUN git clone repository.git
 
-RUN pacman -Syy
+RUN apk update
 
-RUN pacman -S --noconfirm imagemagick
+RUN apk add rawtherapee
